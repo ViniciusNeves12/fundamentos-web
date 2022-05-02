@@ -34,10 +34,12 @@ function validaAssunto(){
     let txtAssunto = document.querySelector("#txtAssunto")
 
     if(txtAssunto.value.length >= 100){
-        txtAssunto.innerHTML= "Email inválido";
+        txtAssunto.innerHTML= "Texto é muito grande, digite no maximo 100 caracteres";
         txtAssunto.style.color = 'red'
+        
+        txtAssunto.style.display = 'block'
     }else{
-        txtAssunto.innerHTML= "Email válido";
-        txtAssunto.style.color = 'green'
+        txtAssunto.style.display = 'none'
+
     }
 }
