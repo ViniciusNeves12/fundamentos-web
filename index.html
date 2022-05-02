@@ -5,58 +5,88 @@
 	<meta charset="utf-8">
 	<meta name= "viewport" content= "width-device-width, initial-scale=1.0">
 	<title>Página de apresentação</title>
-</head>
+	<link rel="stylesheet" href="assets/css/style.css">
 <body>
 	
-	<ul>
+	<ul id="menu">
 		<li>
 			<a href="index.html"> Home </a>
 		</li>
 
 		<li>
-			<a href=" /contato.html"> Contato </a>
+			<a href="contato.html"> Contato </a>
 		</li>
 	</ul>
 
-	<h1>Oi!! Eu sou o Vinicius:</h1>
+	<h1 class="center" >Oi!! Eu sou o Vinicius:</h1>
 
-	<img src="./assets/foto.jpg" alt="Foto do criador desta página" height="400">
-
-	<p>
-		Meu nome é Vinicius Neves Monteiro, tenho 18 anos e Moro em Embu das Artes, região metropolitana
-		de São Paulo.
-	</p>
-	<p>
-		Meu interesse por tecnologia começou desde que me entendo por gente. E meu primeiro contato com 
-		programação foi um contato um pouco indireto. Quando ao tentar passar de uma fase no jogo do Sonic
-		que eu tinha em meu windows XP, acabei descobrindo em um Fórum que tinha como "facilitar" o jogo
-		alterando alguns métodos e atributos. Mal sabia eu que estava mexendo com o que havia de ser minha
-		escolha profissional num furutro proximo.
-	</p>
-	
-	<h2> quer saber um pouco mais sobre programação? assista o video:</h2>	
-	
-	<iframe width="560" height="315" src="https://www.youtube.com/embed/01bCZPpSQxY" title="YouTube video player" frameborder="0"
-	 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-	</iframe>
-	
-	<p>
-		Sou de Embu, terra das Artes e foi através da sétima arte que decidi seguir carreira n área de 
-		desenvolvimento depois de assistir o filme piratas do vale do silício.
-		depois dessa decisão me matriculei em um curso técnico de Desenvolvimento de SIstemas, onde pude 
-		aprender diversas coisas desde o portugol ao desenvolvimento web com POO e banco de Dados. Nessa fase
-		destaco como meu principal desafio a construção do meu TCC que foi um aplicativo web multiplataforma
-		de divulgação e contratos de serviços autônomos, oTCC foi um sucesso e recebeu o prêmio de melhor trabalho
-		feito no semestre. Foi desenvolvido em React, Node e MySQL
-	</p>
-	<p>
-		Após concluir meu curso técnico, me matriculei no bootcamp java da Generatio Brasil afim de aprimorar
-		meus conhecimentos nessa linguagem e evolui profissionalmente
+	<div class="container" >
 		
-	</p>
-	<p>
-		quer saber o que ando fazendo por ai? entre em contato!!!
-	</p>
+		<div class="p-30">
+
+			<p class="justify">
+				Meu nome é Vinicius Neves Monteiro, tenho 18 anos e Moro em Embu das Artes, região metropolitana
+				de São Paulo.
+			</p>
+			<p class="justify">
+				Meu interesse por tecnologia começou desde que me entendo por gente. E meu primeiro contato com 
+				programação foi um contato um pouco indireto. Quando ao tentar passar de uma fase no jogo do Sonic
+				que eu tinha em meu windows XP, acabei descobrindo em um Fórum que tinha como "facilitar" o jogo
+				alterando alguns métodos e atributos. Mal sabia eu que estava mexendo com o que havia de ser minha
+				escolha profissional num furutro proximo.
+			</p>
+			<p class="justify">
+				Sou de Embu, terra das Artes e foi através da sétima arte que decidi seguir carreira n área de 
+				desenvolvimento depois de assistir o filme piratas do vale do silício.
+				depois dessa decisão me matriculei em um curso técnico de Desenvolvimento de SIstemas, onde pude 
+				aprender diversas coisas desde o portugol ao desenvolvimento web com POO e banco de Dados. Nessa fase
+				destaco como meu principal desafio a construção do meu TCC que foi um aplicativo web multiplataforma
+				de divulgação e contratos de serviços autônomos, oTCC foi um sucesso e recebeu o prêmio de melhor trabalho
+				feito no semestre. Foi desenvolvido em React, Node e MySQL
+			</p>
+			
+		</div>
+
+		<div>
+
+			<img class="br-50 wh p-30" src="./assets/foto.jpg" alt="Foto do criador desta página" height="400">
+			
+		</div>
+
+		
+	</div>
+
+
+	<h2 class="center"> quer saber um pouco mais sobre programação? assista o video:</h2>	
+		
+		<div class="container">
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/01bCZPpSQxY" title="YouTube video player" frameborder="0"
+			 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+			</iframe>
+		</div>
+
+			<p class="center">
+				Após concluir meu curso técnico, me matriculei no bootcamp java da Generatio Brasil afim de aprimorar
+				meus conhecimentos nessa linguagem e evolui profissionalmente
+				
+			</p>
+			<p class="center">
+				quer saber o que ando fazendo por ai? <a href="/contato.html">entre em contato!!!</a> 
+			</p>
+		<hr> 
+		<footer>
+			<div class ="container">
+
+				<a href="https://www.linkedin.com/in/vinicius-neves-0993441bb/" target="blank">
+					<img class="tm-social p-30" src="./assets/linkedin.png" alt="">
+				</a>
+			</div>
+			
+			<p class="center">
+				Todos os direitos reservados: Vinicius Neves &copy;
+			</p>
+			
+		</footer>
 
 </body>
 </html>
